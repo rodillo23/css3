@@ -1,0 +1,117 @@
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Primer ejercicio*/
+
+.grid-container{
+    width: 500px;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 1px;
+}
+
+.celda{
+    background-color: #15202b ;
+    color: white;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+/*Segundo Ejercicio*/
+
+.grid-container2{
+    width: 500px;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1px;
+}
+
+.celda2{
+    background: #15202b ;
+    height: 70px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.c1{
+    grid-column: 1/4;
+}
+
+/*Tercer Ejercicio*/
+
+.grid-container3{
+    width: 400px;
+    background: lightgrey;
+    display: grid;
+    grid-template-columns: 100px 150px 150px;
+    grid-template-rows: 70px 70px 70px;
+    gap: 1px;
+}
+
+.celda3{
+    background: #15202b ;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.c3-1{
+    grid-column: 1 / span 3;
+}
+
+.c3-2{
+    grid-row: 2/4;
+}
+
+/*cuarto Ejercicio*/
+
+.grid-container4{
+    width: 500px;
+    background: lightgray;
+    display: grid;
+    gap: 1px;
+    grid-template-areas:    'celda1 celda1 celda1'
+                            'celda2 celda3 celda4'
+                            'celda2 celda5 celda6';
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: 70px 70px 70px;
+}
+
+.celda4{
+    background: #15202b ;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.c4-1{
+    grid-area: celda1;
+}
+
+.c4-2{
+    grid-area: celda2;
+}
+
+.c4-3{
+    grid-area: celda3;
+}
+
+.c4-4{
+    grid-area: celda4;
+}
+
+.c4-5{
+    grid-area: celda5;
+}
+
+.c4-6{
+    grid-area: celda6;
+}
