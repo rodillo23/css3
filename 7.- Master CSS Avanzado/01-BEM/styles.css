@@ -1,0 +1,81 @@
+/*
+    * Usar siempre clases
+    * class = aplicar estilos
+    * id = aplicar funcionalidad (js)
+    * sintaxis para llamar las clases:
+        .bloque
+        .bloque__elemento
+        .bloque__elemento--modificador    
+    * No usar id
+    * No usar etiquetas
+    * Que todo sea key selector(seleccionar justo el elemento al cual se le darán estilos)
+
+
+*/
+
+/*BEM*/
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 20px gray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.cards__card{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background: lightblue;
+    margin: 5px;
+}
+
+.card__title{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card__link--rojo{
+    background: red;
+}
+
+/*clasica
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 20px gray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.cards .card{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background: lightblue;
+    margin: 5px;
+}
+
+contexto key
+.cards .card h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}*/
