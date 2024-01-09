@@ -1,0 +1,23 @@
+:root{
+    --color-principal: red;
+    --fuente: 'Courier New', Courier, monospace;
+    --tamaño-fuente: 45px;
+}
+
+h1{
+    color: var(--color-principal);
+    font-size: var(--tamaño-fuente);
+    font-family: var(--fuente);
+}
+
+p{
+    font-family: var(--fuente);
+}
+
+a{
+    color: var(--color-principal);
+}
+
+h3{
+    font-size: var(--tamaño-fuente);
+}
