@@ -1,0 +1,37 @@
+/*Pixeles y Porcentajes*/
+/*body{
+    height: 1200px;
+}
+.caja{
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    width: 300px;
+    height: 300px; 
+    margin: 0 auto; 
+    text-align: center;
+    background: lightblue;
+    border: 1px solid black;
+}*/
+
+/*em*/
+
+.padre{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.padre2{
+    font-size: 50px;
+}
+
+.caja{
+    font-size: 5em;
+    width: 10em;
+    height: 10em;
+    background: lightblue;
+    border: 1px solid black;    
+}
