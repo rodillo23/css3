@@ -1,3 +1,17 @@
-body{
-    font-family: 'Poppins';
+/*Definicion de Variables*/
+:root{
+    --color-primary: #FFFFFF;
+    --color-secondary: #04B4E0;
+    
+    --color-background: #F2F7F9;
+    --color-transparent: transparent;
+    
+    --color-icons: #B5B6B7;
+    --color-subtitle: #888888;
+    --color-title: #222222;
+    --color-text: #555555;
 }
+
+/*Estilos Generales*/
+
+/*Estructura Principañ*/
