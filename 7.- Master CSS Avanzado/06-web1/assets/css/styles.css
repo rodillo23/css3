@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6{
     border: 3px solid var(--color-primary);
     background-color: var(--color-primary);
     border-radius: 50%;
+    transition: 1.5s all ease;
+}
+
+.user-info__image:hover{
+    transform: rotate(360deg);
 }
 
 .user-info__container-image::after{
@@ -177,7 +182,6 @@ h1, h2, h3, h4, h5, h6{
     bottom: 1.5rem;
     font-size: 1.2rem;
 }
-
 
 /*Contenedor Principal*/
 .layout__content{
