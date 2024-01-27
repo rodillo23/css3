@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6{
 .user-info__container-image{
     position: relative;
     width: 18rem;
+    margin: 0 auto;
     margin-top: 7rem;
     z-index: 1;
 }
@@ -102,6 +103,81 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 50%;
     opacity: 0.4;
 }
+
+.user-info__name{
+    color: var(--color-primary);
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 2.6rem;
+}
+
+.user-info__job{
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: var(--color-primary);
+}
+
+.layout__menu{
+    display: none;
+}
+
+.user-info__links{
+    margin-bottom: 3.6rem;
+}
+
+.links__social{
+    margin-top: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.social__option{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+    border-radius: 50%;
+    transition: all 300ms;
+}
+
+.social__option:hover{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+.social__link{
+    color: var(--color-primary);
+}
+
+.user-info__buttons{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.user-info__btn{
+    border: 2px solid var(--color-primary);
+    padding: 1.3rem 3rem;
+    border-radius: 3.2rem;
+    color: var(--color-primary);
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.22);
+    transition: all 400ms ease;
+}
+
+.user-info__btn:hover{
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    transform: scale(1.1);
+}
+
+.user-info__footer{
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
 
 /*Contenedor Principal*/
 .layout__content{
