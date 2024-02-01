@@ -1,7 +1,8 @@
 /*Definicion de Variables*/
 :root{
     --color-primary: #FFFFFF;
-    --color-secondary: #04B4E0;
+    /*--color-secondary: #04B4E0;*/
+    --color-secondary: #00b297;
     
     --color-background: #F2F7F9;
     --color-transparent: transparent;
